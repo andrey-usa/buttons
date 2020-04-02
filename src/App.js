@@ -17,7 +17,6 @@ function App() {
                 if (i !== 0) {
                     range.push(i)
                 }
-                ;
             }
         }
 
@@ -37,7 +36,6 @@ function App() {
                 if (i !== 0) {
                     range.push(i)
                 }
-
             }
         }
         setRange(range);
