@@ -12,8 +12,13 @@ function App() {
         console.log('target value', +e.target.value);
         console.log('fromDigit', fromDigit);
         let range = [];
-        for (let i = +e.target.value; i <= toDigit; i++) {
-            if (i!==0) {range.push(i)};
+        if (e.target.value > 0) {
+            for (let i = +e.target.value; i <= toDigit; i++) {
+                if (i !== 0) {
+                    range.push(i)
+                }
+                ;
+            }
         }
 
         setRange(range);
@@ -27,8 +32,13 @@ function App() {
         console.log('target value', +e.target.value);
         console.log('toDigit', toDigit);
         let range = [];
-        for (let i = fromDigit; i <= +e.target.value; i++) {
-            if (i!==0) {range.push(i)};
+        if (e.target.value > 0) {
+            for (let i = fromDigit; i <= +e.target.value; i++) {
+                if (i !== 0) {
+                    range.push(i)
+                }
+
+            }
         }
         setRange(range);
     };
