@@ -25,3 +25,41 @@
   text-align: center;
 }
 
+
+.App-buttons{
+  /*background-color: #282c34;*/
+  /*min-height: 100vh;*/
+  /*!*display: flex;*!*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*font-size: calc(10px + 2vmin);*/
+  /*color: white;*/
+  /*text-align: center;*/
+
+
+  display: block;
+  float: center;
+  height: 400px;
+  width: 900px;
+  list-style-type: none;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+
+.left {
+  float:left;
+  width:350px;
+}
+
+.center {
+  display: inline-block;
+  margin:0 auto;
+  width:100px;
+}
+.right {
+  float:right;
+  width:320px;
+}
+
