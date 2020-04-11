@@ -1,32 +1,35 @@
 .App {
   text-align: center;
+  /*background-color: #282c34;*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*  display: inline-block;*/
+/*  margin:0 auto;*/
+/*}*/
 
 .App-content {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /*background-color: #282c34;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*font-size: calc(10px + 2vmin);*/
+  color: black;
   text-align: center;
+  /*min-height: 100vh;*/
+  /*margin:0 auto;*/
+
 }
 
 
-.App-buttons{
+.App-buttons {
   /*background-color: #282c34;*/
   /*min-height: 100vh;*/
   /*!*display: flex;*!*/
@@ -37,29 +40,29 @@
   /*color: white;*/
   /*text-align: center;*/
 
-
-  display: block;
-  float: center;
-  height: 400px;
-  width: 900px;
-  list-style-type: none;
-  margin: 10px;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
 }
 
 
 .left {
-  float:left;
-  width:350px;
+  width:550px;
+  text-align: right;
+  float: left;
+  direction: rtl;
+
 }
 
 .center {
   display: inline-block;
-  margin:0 auto;
-  width:100px;
+  width:120px;
+
 }
+
 .right {
-  float:right;
-  width:320px;
+  width:500px;
+  text-align: left;
+  float: right;
+
 }
 
