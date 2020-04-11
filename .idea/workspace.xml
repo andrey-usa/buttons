@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d049771-faca-4cba-8513-b9190c1ac2d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="6d049771-faca-4cba-8513-b9190c1ac2d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +50,21 @@
       <recent name="C:\Users\user\WebstormProjects\hw3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -72,8 +77,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="Node.js.App.js" />
       </list>
     </recent_temporary>
@@ -90,7 +107,7 @@
       <updated>1585450864047</updated>
       <workItem from="1585450865609" duration="2407000" />
       <workItem from="1585778299010" duration="34817000" />
-      <workItem from="1585852096425" duration="82822000" />
+      <workItem from="1585852096425" duration="84273000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585853958419</created>
@@ -120,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586307462103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update of interface and array changed to chunked">
+      <created>1586577145074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586577145075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +154,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="4/2/2020 minor update" />
     <MESSAGE value="changed buttons for 10 100 1000 10000" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed buttons for 10 100 1000 10000" />
+    <MESSAGE value="update of interface and array changed to chunked" />
+    <option name="LAST_COMMIT_MESSAGE" value="update of interface and array changed to chunked" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#ESLint" timestamp="1585866160567">
@@ -141,30 +166,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1585850537609" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1586307461340">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1586578556937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586307461340" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586578556937" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585851495762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585851495762" />
-    <state width="708" height="111" key="GridCell.Tab.0.bottom" timestamp="1586297757212">
+    <state width="861" height="111" key="GridCell.Tab.0.bottom" timestamp="1586578544886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="708" height="111" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586297757212" />
-    <state width="708" height="111" key="GridCell.Tab.0.center" timestamp="1586297757212">
+    <state width="861" height="111" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586578544886" />
+    <state width="861" height="111" key="GridCell.Tab.0.center" timestamp="1586578544886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="708" height="111" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586297757212" />
-    <state width="708" height="111" key="GridCell.Tab.0.left" timestamp="1586297757211">
+    <state width="861" height="111" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586578544886" />
+    <state width="861" height="111" key="GridCell.Tab.0.left" timestamp="1586578544886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="708" height="111" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586297757211" />
-    <state width="708" height="111" key="GridCell.Tab.0.right" timestamp="1586297757212">
+    <state width="861" height="111" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586578544886" />
+    <state width="861" height="111" key="GridCell.Tab.0.right" timestamp="1586578544886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="708" height="111" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586297757212" />
+    <state width="861" height="111" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586578544886" />
     <state width="1493" height="119" key="GridCell.Tab.1.bottom" timestamp="1585851527487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,10 +242,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586564517745" />
-    <state x="364" y="185" key="Vcs.Push.Dialog.v2" timestamp="1586307486186">
+    <state x="364" y="185" key="Vcs.Push.Dialog.v2" timestamp="1586578476070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="364" y="185" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586307486186" />
+    <state x="364" y="185" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586578476070" />
     <state x="406" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586379093042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
